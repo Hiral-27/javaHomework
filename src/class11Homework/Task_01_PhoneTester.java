@@ -6,6 +6,7 @@ public class Task_01_PhoneTester {
         Task 1-
         Create a Class “Phone”. Create 3 Objects of it: iPhone, Pixel, Samsung with specific  attributes and behaviors.
          */
+
         Task_01_Phone iPhone = new Task_01_Phone();
         iPhone.brand= "iPhone";
         iPhone.color= "Grey";

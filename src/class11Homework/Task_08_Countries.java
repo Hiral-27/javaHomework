@@ -16,8 +16,22 @@ public class Task_08_Countries {
                                {"Egypt","Nigeria","Kenya","Morocco"}
         };
 
-        int totalCountries=0;
 
+        int counter=0;
+        // Method 1: For Loop using COUNTER
+        System.out.println("Method 1: For Loop Using COUNTER");
+        for (int i = 0; i < countries.length; i++) {
+            for (int j = 0; j < countries[i].length; j++) {
+                System.out.print(countries[i][j]+" ");
+                counter++;   // increment
+            }
+            System.out.println();
+        }
+        System.out.println("The total number of countries are "+ counter);
+
+//--------------------------------------------------------------------------------------------------------
+        System.out.println("*************************************");
+        int totalCountries=0;
         // Method 1: For Loop
         System.out.println("Method 1: For Loop");
         for (int i = 0; i < countries.length; i++) {

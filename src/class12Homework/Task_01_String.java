@@ -21,19 +21,15 @@ public class Task_01_String {
 
         String string = "Hiral";
 
-        // Method 1
-        if (!string.isEmpty()) {
-            System.out.println(string.charAt(2));
-        }
 
-        // Method 2
-        int l = string.length();
+        int length = string.length();
         if (!string.isEmpty()){
-            if (l % 2 != 0) {
-                int charMiddle = (l / 2);
+            if (length % 2 != 0 &&  length> 3) {
+                int charMiddle = (length / 2);
                 System.out.println(string.charAt(charMiddle));
             }
          }
+
 
     }
 }
