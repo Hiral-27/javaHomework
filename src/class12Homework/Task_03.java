@@ -31,10 +31,12 @@ public class Task_03 {
             String suggestedName;
 
             if (babyName.equalsIgnoreCase("Boy")) {
-                suggestedName = dadFirstName.substring(0, 3) + momFirstName.substring(2);
+            //    suggestedName = dadFirstName.substring(0, 3) + momFirstName.substring(2);
+                suggestedName = dadFirstName.substring(0, dadFirstName.length()/2) + momFirstName.substring(momFirstName.length()/2);
                 System.out.println(suggestedName.toUpperCase());
             } else if (babyName.equalsIgnoreCase("Girl")) {
-                suggestedName = momFirstName.substring(0, 2) + dadFirstName.substring(3);
+              //  suggestedName = momFirstName.substring(0, 2) + dadFirstName.substring(3);
+                suggestedName = momFirstName.substring(0, momFirstName.length()/2) + dadFirstName.substring(dadFirstName.length()/2);
                 System.out.println(suggestedName.toUpperCase());
             }
         }

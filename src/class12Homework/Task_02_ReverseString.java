@@ -26,5 +26,13 @@ public class Task_02_ReverseString {
         }
         System.out.println(reverse);
 
+        //When length()-1 is used, it returns the last index of the string. In other words, it returns the number of
+        // characters in the string minus 1.
+        //Method 3:
+        for (int i = day.length()-1; i > 0 ; i++) {
+            System.out.println(day);
+        }
+
+
     }
 }
