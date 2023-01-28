@@ -18,16 +18,5 @@ public class Task_06_StringSwapping {
         System.out.println("String str1= "+str1);
         System.out.println("String str2= "+str2);
 
-
-
-      /*  int n1= 10;
-        int n2= 20;
-        n1= n1+n2;
-        System.out.println(n1);
-        n2= n1-n2;
-        System.out.println("n2 "+n2);
-        n1= n1-n2;
-        System.out.println("n1 "+n1);
-*/
     }
 }

@@ -14,7 +14,6 @@ public class Task_01_String {
 
         String string = "Hiral";
 
-
         int length = string.length();
         if (!string.isEmpty()){
             if (length % 2 != 0 &&  length> 3) {
