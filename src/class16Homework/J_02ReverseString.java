@@ -12,21 +12,23 @@ public class J_02ReverseString {
         StringBuilder stringBuilder = new StringBuilder(word);
         stringBuilder.reverse();
         String reverse = stringBuilder.toString();
-        if (word.equalsIgnoreCase(reverse)) {
+     /*   if (word.equalsIgnoreCase(reverse)) {
             System.out.println("Original String: " + word);
             System.out.println("Reversed String: " + reverse);
         } else {
             System.out.println("Invalid");
         }
-        return reverse;
+     */   return reverse;
     }
 
 }
     class J_02ReversedStringTester{
         public static void main(String[] args) {
 
-            J_02ReverseString.reverseString("Malayalam");
-
+            System.out.println(J_02ReverseString.reverseString("Malayalam"));
+/*
+If static is in the same class you can call just by writing the name of class OR .method name
+ */
 
         }
     }

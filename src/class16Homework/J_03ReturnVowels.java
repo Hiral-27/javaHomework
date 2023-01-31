@@ -7,14 +7,13 @@ public class J_03ReturnVowels {
     Method should be available inside the class only where it was declared and executed by calling it is name.
      */
 
-    private String vowels(String str) {
+    private static String vowels(String str) {
         String newStr= str.replaceAll("[^aeiouAEIOU]", "");
         return newStr;
     }
 
     public static void main(String[] args) {
-        J_03ReturnVowels method= new J_03ReturnVowels();
-        System.out.println(method.vowels("AlphaNumeric"));
+        System.out.println(vowels("AlphaNumeric"));
 
     }
 
