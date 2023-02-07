@@ -11,14 +11,26 @@ public class Teacher {
      */
     String name;
     int age;
-    protected String teacherID;
-    private String password;
+     String teacherID;
+
+    String password;
 
     public static String subject;
 
-    void teacherInfo(){
+    public void teacherInfo(){
         System.out.println("Name: "+name+", Age: "+age+", Teacher ID: "+ teacherID+", Password: "+password);
 
+    }
+    private void passwordInfo(){
+        System.out.println("Password: "+password);
+    }
+
+    protected void info(){
+        System.out.println("Teacher ID: "+teacherID+", Password: "+password);
+    }
+
+    void nameAndAgeList(){
+        System.out.println("Name: "+name+", Age: "+age);
     }
 }
 

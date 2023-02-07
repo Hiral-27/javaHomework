@@ -7,6 +7,8 @@ public class TeacherTester {
         teacher1.age= 35;
         teacher1.teacherID = "John1234";
         teacher1.teacherInfo();
+        teacher1.info();
+        teacher1.nameAndAgeList();
 
         System.out.println("---------------------------------------------");
 
