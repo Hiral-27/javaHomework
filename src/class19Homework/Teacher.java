@@ -1,6 +1,4 @@
-package class18Homework;
-
-import class11Homework.Task_01_Phone;
+package class19Homework;
 
 public class Teacher {
     /*

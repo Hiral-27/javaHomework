@@ -1,4 +1,4 @@
-package class18Homework;
+package class19Homework;
 
 public class AnimalsTester {
     public static void main(String[] args) {
