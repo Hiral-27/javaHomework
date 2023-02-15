@@ -8,7 +8,14 @@ public class ComputerTester {
             computer.operatingSystem();
             computer.playMusic();
             computer.restart();
+            if(computer instanceof Apple){
+                Apple apple= (Apple) computer;
+                apple.appleTV();
+            }
             System.out.println();
+
+
         }
+
     }
 }
