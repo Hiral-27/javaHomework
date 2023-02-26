@@ -16,16 +16,10 @@ public class Task05 {
         }
         System.out.println("Even Numbers 1 to 500: "+evenNumbers);
 
-        // use removeIf() method
 
-        System.out.println("Numbers that are not divisible by 5: ");
-        for (int i= 0; i<=evenNumbers.size(); i++){
-            if (evenNumbers.get(i)%5==0){
-                evenNumbers.remove(i);
-            }
-        }
+        // Lambda--> removeIf() method
+        evenNumbers.removeIf(even-> even%5==0);
         System.out.println(evenNumbers);
-
 
     }
 }

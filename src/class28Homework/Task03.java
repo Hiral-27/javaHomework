@@ -15,6 +15,7 @@ public class Task03 {
         words.add("adobe");
         words.add("selenium");
 
+        // 1st Method--> Iterator
         Iterator<String> iterator=words.iterator();
         while (iterator.hasNext()){
             String str= iterator.next();
@@ -23,5 +24,12 @@ public class Task03 {
             }
         }
         System.out.println(words);
+
+        // OR
+
+        // 2nd Method Lambda Expression
+        words.removeIf(word-> word.endsWith("e"));
+        System.out.println(words);
+
     }
 }
