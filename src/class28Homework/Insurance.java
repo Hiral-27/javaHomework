@@ -12,6 +12,7 @@ public abstract class Insurance {
     String insuranceName;
 
     public Insurance(String insuranceName){
+
         this.insuranceName= insuranceName;
     }
     abstract void getQuote();
@@ -51,6 +52,7 @@ String petType;
         this.petType= petType;
     }
     public String getPetType(){
+
         return petType;
     }
 
